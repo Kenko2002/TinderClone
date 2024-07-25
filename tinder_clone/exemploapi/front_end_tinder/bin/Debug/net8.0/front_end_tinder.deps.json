@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "front_end_tinder/1.0.0": {
+        "runtime": {
+          "front_end_tinder.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "front_end_tinder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

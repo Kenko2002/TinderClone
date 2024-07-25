@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|c:\\users\\renzo fraga\\desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\mvc\\application\\application_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|solutionrelative:exemploapi\\mvc\\application\\application_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|c:\\users\\renzo fraga\\desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\mvc\\application\\application_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|solutionrelative:exemploapi\\mvc\\application\\application_admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|c:\\users\\renzo fraga\\desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\mvc\\model\\model_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|solutionrelative:exemploapi\\mvc\\model\\model_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|c:\\users\\renzo fraga\\desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\mvc\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|solutionrelative:exemploapi\\mvc\\dto\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|c:\\users\\renzo fraga\\desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\mvc\\controller\\controller_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|solutionrelative:exemploapi\\mvc\\controller\\controller_user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|c:\\users\\renzo fraga\\desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\mvc\\model\\model_atracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|solutionrelative:exemploapi\\mvc\\model\\model_atracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|c:\\users\\renzo fraga\\desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\mvc\\model\\model_genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|solutionrelative:exemploapi\\mvc\\model\\model_genero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|c:\\users\\renzo fraga\\desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\to_do.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|solutionrelative:exemploapi\\to_do.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|c:\\users\\renzo fraga\\desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\mvc\\model\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57A6AC9E-6F81-4CFD-88C5-3F068B1A86CD}|exemploapi\\exemploapi.csproj|solutionrelative:exemploapi\\mvc\\model\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "application_admin.cs",
+              "DocumentMoniker": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\MVC\\application\\application_admin.cs",
+              "RelativeDocumentMoniker": "exemploapi\\MVC\\application\\application_admin.cs",
+              "ToolTip": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\MVC\\application\\application_admin.cs",
+              "RelativeToolTip": "exemploapi\\MVC\\application\\application_admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T21:35:47.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\MVC\\DTO\\UserDTO.cs",
+              "RelativeDocumentMoniker": "exemploapi\\MVC\\DTO\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\MVC\\DTO\\UserDTO.cs",
+              "RelativeToolTip": "exemploapi\\MVC\\DTO\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T21:22:24.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "model_User.cs",
+              "DocumentMoniker": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\MVC\\model\\model_User.cs",
+              "RelativeDocumentMoniker": "exemploapi\\MVC\\model\\model_User.cs",
+              "ToolTip": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\MVC\\model\\model_User.cs",
+              "RelativeToolTip": "exemploapi\\MVC\\model\\model_User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T21:52:17.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "to_do.txt",
+              "DocumentMoniker": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\to_do.txt",
+              "RelativeDocumentMoniker": "exemploapi\\to_do.txt",
+              "ToolTip": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\to_do.txt",
+              "RelativeToolTip": "exemploapi\\to_do.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-29T22:15:09.098Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbcontext.cs",
+              "DocumentMoniker": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\MVC\\model\\dbcontext.cs",
+              "RelativeDocumentMoniker": "exemploapi\\MVC\\model\\dbcontext.cs",
+              "ToolTip": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\MVC\\model\\dbcontext.cs",
+              "RelativeToolTip": "exemploapi\\MVC\\model\\dbcontext.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T21:55:57.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "controller_user.cs",
+              "DocumentMoniker": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\MVC\\controller\\controller_user.cs",
+              "RelativeDocumentMoniker": "exemploapi\\MVC\\controller\\controller_user.cs",
+              "ToolTip": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\MVC\\controller\\controller_user.cs",
+              "RelativeToolTip": "exemploapi\\MVC\\controller\\controller_user.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T03:32:28.567Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "application_user.cs",
+              "DocumentMoniker": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\MVC\\application\\application_user.cs",
+              "RelativeDocumentMoniker": "exemploapi\\MVC\\application\\application_user.cs",
+              "ToolTip": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\MVC\\application\\application_user.cs",
+              "RelativeToolTip": "exemploapi\\MVC\\application\\application_user.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAD4vy0AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T22:12:31.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "model_Atracao.cs",
+              "DocumentMoniker": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\MVC\\model\\model_Atracao.cs",
+              "RelativeDocumentMoniker": "exemploapi\\MVC\\model\\model_Atracao.cs",
+              "ToolTip": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\MVC\\model\\model_Atracao.cs",
+              "RelativeToolTip": "exemploapi\\MVC\\model\\model_Atracao.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T22:06:28.877Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "model_Genero.cs",
+              "DocumentMoniker": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\MVC\\model\\model_Genero.cs",
+              "RelativeDocumentMoniker": "exemploapi\\MVC\\model\\model_Genero.cs",
+              "ToolTip": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\MVC\\model\\model_Genero.cs",
+              "RelativeToolTip": "exemploapi\\MVC\\model\\model_Genero.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T21:38:22.648Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
