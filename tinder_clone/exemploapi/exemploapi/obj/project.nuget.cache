@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EaF4JDKA/Fd470MRwPFTSFwRnCrpcR+CF0DdYXhkYfkyfJ5GOjGRsmUrTDF9NNZ7OL4f1+DsO9YjGcWSvlP8Uw==",
+  "dgSpecHash": "vusjDVtzMvA2dmT08VPxhPc1WJxJjJsTHPQzESrBGsnWk3U761thbXMLTxIWvFXtFOqfQueeVgt/GymAKQ6JBw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\exemploapi.csproj",
+  "projectFilePath": "C:\\Users\\Renzo Fraga\\Documents\\GitHub\\TinderClone\\tinder_clone\\exemploapi\\exemploapi\\exemploapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Renzo Fraga\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Renzo Fraga\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

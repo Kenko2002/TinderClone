@@ -12,8 +12,8 @@ using example_db.Data;
 namespace exemploapi.Migrations
 {
     [DbContext(typeof(MyProjectDbContext))]
-    [Migration("20240429021943_match2")]
-    partial class match2
+    [Migration("20240727061458_tinder")]
+    partial class tinder
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,21 +24,6 @@ namespace exemploapi.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
-
-            modelBuilder.Entity("MatchUser", b =>
-                {
-                    b.Property<int>("matchesId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("user_requirinte_e_alvoId")
-                        .HasColumnType("int");
-
-                    b.HasKey("matchesId", "user_requirinte_e_alvoId");
-
-                    b.HasIndex("user_requirinte_e_alvoId");
-
-                    b.ToTable("MatchUser");
-                });
 
             modelBuilder.Entity("ModelExample.Models.Example", b =>
                 {
@@ -133,7 +118,18 @@ namespace exemploapi.Migrations
                     b.Property<bool?>("MatchAceito")
                         .HasColumnType("bit");
 
+                    b.Property<int?>("UserId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("user_requirido_id")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("user_requirinte_id")
+                        .HasColumnType("int");
+
                     b.HasKey("Id");
+
+                    b.HasIndex("UserId");
 
                     b.ToTable("Matches");
                 });
@@ -200,21 +196,6 @@ namespace exemploapi.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("MatchUser", b =>
-                {
-                    b.HasOne("exemploapi.MVC.model.Match", null)
-                        .WithMany()
-                        .HasForeignKey("matchesId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("exemploapi.MVC.model.User", null)
-                        .WithMany()
-                        .HasForeignKey("user_requirinte_e_alvoId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-                });
-
             modelBuilder.Entity("ModelExample.Models.Example", b =>
                 {
                     b.HasOne("ModelExample.Models.Example", "exemplo_pai")
@@ -235,6 +216,13 @@ namespace exemploapi.Migrations
                         .HasForeignKey("generoId");
 
                     b.Navigation("genero");
+                });
+
+            modelBuilder.Entity("exemploapi.MVC.model.Match", b =>
+                {
+                    b.HasOne("exemploapi.MVC.model.User", null)
+                        .WithMany("matches")
+                        .HasForeignKey("UserId");
                 });
 
             modelBuilder.Entity("exemploapi.MVC.model.User", b =>
@@ -261,6 +249,8 @@ namespace exemploapi.Migrations
             modelBuilder.Entity("exemploapi.MVC.model.User", b =>
                 {
                     b.Navigation("GenerosPelosQuaisSeAtrai");
+
+                    b.Navigation("matches");
                 });
 #pragma warning restore 612, 618
         }

@@ -21,6 +21,11 @@ namespace exemploapi.MVC.controller
             app.MapPost("/user/login", FuncionalidadesDeUsuario.Logar);
             app.MapGet("/user/getmyuser", FuncionalidadesDeUsuario.MyUser);
             app.MapPost("/user/sendnewmatch", FuncionalidadesDeUsuario.NovaRequisicaoMatch);
+            app.MapGet("/user/mymatches", FuncionalidadesDeUsuario.BuscarMatchesDoUsuario);
+            app.MapPost("/user/aceitarmatch", FuncionalidadesDeUsuario.AceitarMatch);
+            app.MapPost("/user/recusarmatch", FuncionalidadesDeUsuario.RecusarMatch);
+
+
         }
 
     }

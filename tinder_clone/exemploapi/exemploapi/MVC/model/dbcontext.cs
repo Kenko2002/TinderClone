@@ -27,7 +27,7 @@ namespace example_db.Data
         public DbSet<Atracao> Atracoes { get; set; }
 
 
-        private string localConnectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=example_db;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
+        private string localConnectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=tinder_db;Integrated Security=True;Connect Timeout=30;Encrypt=False;Trust Server Certificate=False;Application Intent=ReadWrite;Multi Subnet Failover=False";
         
         //comandos de terminal uteis:
         //Add-Migration 

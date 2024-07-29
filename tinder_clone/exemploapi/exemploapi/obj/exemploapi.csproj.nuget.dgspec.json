@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\exemploapi.csproj": {}
+    "C:\\Users\\Renzo Fraga\\Documents\\GitHub\\TinderClone\\tinder_clone\\exemploapi\\exemploapi\\exemploapi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\exemploapi.csproj": {
+    "C:\\Users\\Renzo Fraga\\Documents\\GitHub\\TinderClone\\tinder_clone\\exemploapi\\exemploapi\\exemploapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\exemploapi.csproj",
+        "projectUniqueName": "C:\\Users\\Renzo Fraga\\Documents\\GitHub\\TinderClone\\tinder_clone\\exemploapi\\exemploapi\\exemploapi.csproj",
         "projectName": "exemploapi",
-        "projectPath": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\exemploapi.csproj",
+        "projectPath": "C:\\Users\\Renzo Fraga\\Documents\\GitHub\\TinderClone\\tinder_clone\\exemploapi\\exemploapi\\exemploapi.csproj",
         "packagesPath": "C:\\Users\\Renzo Fraga\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Renzo Fraga\\Desktop\\projetos_c#\\exemplos_c--main\\tinder_clone\\exemploapi\\exemploapi\\obj\\",
+        "outputPath": "C:\\Users\\Renzo Fraga\\Documents\\GitHub\\TinderClone\\tinder_clone\\exemploapi\\exemploapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Renzo Fraga\\AppData\\Roaming\\NuGet\\NuGet.Config",

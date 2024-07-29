@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace exemploapi.Migrations
 {
     /// <inheritdoc />
-    public partial class match : Migration
+    public partial class tinder : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -55,20 +55,6 @@ namespace exemploapi.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_Localizacoes", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
-                name: "Matches",
-                columns: table => new
-                {
-                    Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Criacao = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    MatchAceito = table.Column<bool>(type: "bit", nullable: true)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Matches", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -145,27 +131,25 @@ namespace exemploapi.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "MatchUser",
+                name: "Matches",
                 columns: table => new
                 {
-                    matchesId = table.Column<int>(type: "int", nullable: false),
-                    user_requirinte_e_alvoId = table.Column<int>(type: "int", nullable: false)
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    user_requirinte_id = table.Column<int>(type: "int", nullable: true),
+                    user_requirido_id = table.Column<int>(type: "int", nullable: true),
+                    Criacao = table.Column<DateTime>(type: "datetime2", nullable: false),
+                    MatchAceito = table.Column<bool>(type: "bit", nullable: true),
+                    UserId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_MatchUser", x => new { x.matchesId, x.user_requirinte_e_alvoId });
+                    table.PrimaryKey("PK_Matches", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_MatchUser_Matches_matchesId",
-                        column: x => x.matchesId,
-                        principalTable: "Matches",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
-                    table.ForeignKey(
-                        name: "FK_MatchUser_Users_user_requirinte_e_alvoId",
-                        column: x => x.user_requirinte_e_alvoId,
+                        name: "FK_Matches_Users_UserId",
+                        column: x => x.UserId,
                         principalTable: "Users",
-                        principalColumn: "Id",
-                        onDelete: ReferentialAction.Cascade);
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateIndex(
@@ -184,9 +168,9 @@ namespace exemploapi.Migrations
                 column: "exemplo_paiId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_MatchUser_user_requirinte_e_alvoId",
-                table: "MatchUser",
-                column: "user_requirinte_e_alvoId");
+                name: "IX_Matches_UserId",
+                table: "Matches",
+                column: "UserId");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Users_generoId",
@@ -212,9 +196,6 @@ namespace exemploapi.Migrations
 
             migrationBuilder.DropTable(
                 name: "Examples");
-
-            migrationBuilder.DropTable(
-                name: "MatchUser");
 
             migrationBuilder.DropTable(
                 name: "Matches");

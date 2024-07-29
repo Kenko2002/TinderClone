@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("exemploapi")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("front_end_tinder")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+00395b9bf0eedc2a364ac4d6c1582a410a7761d9")]
-[assembly: System.Reflection.AssemblyProductAttribute("exemploapi")]
-[assembly: System.Reflection.AssemblyTitleAttribute("exemploapi")]
+[assembly: System.Reflection.AssemblyProductAttribute("front_end_tinder")]
+[assembly: System.Reflection.AssemblyTitleAttribute("front_end_tinder")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

@@ -225,5 +225,147 @@ namespace exemploapi.MVC.application
         }
 
 
+
+        public static IResult BuscarMatchesDoUsuario(HttpContext httpContext)
+        {
+            using (var dbContext = new MyProjectDbContext())
+            {
+                // Verifica se o usuário está logado
+                var userId = httpContext.Session.GetInt32("User_Id");
+                if (userId != null)
+                {
+                    // Obtém o usuário logado
+                    var usuarioLogado = dbContext.Users.Find(userId.Value);
+                    if (usuarioLogado != null)
+                    {
+                        // Consulta todos os Matches onde o usuário logado é o requisitante ou o requisitado
+                        var matches = dbContext.Matches
+                            .Where(m => m.user_requirinte_id == userId || m.user_requirido_id == userId)
+                            .Select(m => new
+                            {
+                                m.Id,
+                                m.user_requirinte_id,
+                                m.user_requirido_id,
+                                m.Criacao,
+                                m.MatchAceito,
+                                Status = m.MatchAceito == null
+                                    ? "Ainda não foi visualizado"
+                                    : (m.MatchAceito == true
+                                        ? "Aceito"
+                                        : "Recusado")
+                            })
+                            .ToList();
+
+                        // Retorna os Matches encontrados com o status adicional
+                        return Results.Ok(matches);
+                    }
+                    else
+                    {
+                        return Results.Ok("Usuário não encontrado.");
+                    }
+                }
+                else
+                {
+                    return Results.Ok("Você não está logado.");
+                }
+            }
+        }
+
+
+        public static IResult AceitarMatch(HttpContext httpContext, [FromBody] Match post_content)
+        {
+            using (var dbContext = new MyProjectDbContext())
+            {
+                // Verifica se o usuário está logado
+                var userId = httpContext.Session.GetInt32("User_Id");
+                if (userId == null)
+                {
+                    return Results.Ok("Você não está logado.");
+                }
+
+                // Busca o match no banco de dados
+                var match = dbContext.Matches.Find(post_content.Id);
+                if (match == null)
+                {
+                    return Results.NotFound("Match não encontrado.");
+                }
+
+                // Verifica se o usuário logado é o requisitado
+                if (match.user_requirido_id != userId)
+                {
+                    return Results.BadRequest("Você não tem permissão para aceitar este match.");
+                }
+
+                // Atualiza o status do match
+                match.MatchAceito = true;
+                // Salva as mudanças no banco de dados
+                dbContext.SaveChanges();
+
+                // Retorna o match atualizado
+                return Results.Ok(new
+                {
+                    match.Id,
+                    match.user_requirinte_id,
+                    match.user_requirido_id,
+                    match.Criacao,
+                    Status = match.MatchAceito == null
+                        ? "Ainda não foi visualizado"
+                        : (match.MatchAceito == true
+                            ? "Aceito"
+                            : "Recusado")
+                });
+            }
+        }
+
+
+        public static IResult RecusarMatch(HttpContext httpContext, [FromBody] Match post_content)
+        {
+            using (var dbContext = new MyProjectDbContext())
+            {
+                // Verifica se o usuário está logado
+                var userId = httpContext.Session.GetInt32("User_Id");
+                if (userId == null)
+                {
+                    return Results.Ok("Você não está logado.");
+                }
+
+                // Busca o match no banco de dados
+                var match = dbContext.Matches.Find(post_content.Id);
+                if (match == null)
+                {
+                    return Results.NotFound("Match não encontrado.");
+                }
+
+                // Verifica se o usuário logado é o requisitado
+                if (match.user_requirido_id != userId)
+                {
+                    return Results.BadRequest("Você não tem permissão para aceitar este match.");
+                }
+
+                // Atualiza o status do match
+                match.MatchAceito = false;
+                // Salva as mudanças no banco de dados
+                dbContext.SaveChanges();
+
+                // Retorna o match atualizado
+                return Results.Ok(new
+                {
+                    match.Id,
+                    match.user_requirinte_id,
+                    match.user_requirido_id,
+                    match.Criacao,
+                    Status = match.MatchAceito == null
+                        ? "Ainda não foi visualizado"
+                        : (match.MatchAceito == true
+                            ? "Aceito"
+                            : "Recusado")
+                });
+            }
+        }
+
+
+
+
+
     }
 }
